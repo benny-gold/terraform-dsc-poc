@@ -4,4 +4,3 @@ resource "azurerm_resource_group" "dscterrpoc" {
 
   tags = "${local.common_tags}"
 }
-
