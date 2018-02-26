@@ -10,9 +10,13 @@ variable "location" {
   default = "westeurope"
 }
 
-variable "subscription_id" {}
+variable "subscription_id" {
 
-variable "vm_name_prefix" {
+}
+
+variable "name_prefix" {
   type    = "string"
   default = "dscterrpoc"
 }
+
+variable "subnet_id" { }
